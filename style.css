@@ -70,6 +70,9 @@ article {
 .print-box p {
   float: left;
   width: 300px;
+  font-size: 10px;
+  color: #888;
+  font-family: sans-serif;
 }
 #print {
   float: right;
@@ -80,6 +83,9 @@ article {
 }
 #print h6 {
   text-align: right;
+  color: #888;
+  font-size: 10px;
+  font-family: sans-serif;
 }
 .text .print-box {
   /*border: red 1px solid;*/
@@ -88,30 +94,64 @@ article {
   margin: 20px 0;
   width: 900px;
 }
+
+
+/* main text */
+#main-text {
+  text-indent: 20px;
+}
+#main-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* recipe info */
 .recipe {
   background-image: url("img/list-bg.png");
   width: 900px;
   box-shadow: 0 4px #888;
+  padding: 30px 0;
 }
 .recipe ul {
-  margin-left: 50px;
+  margin-left: 100px;
 }
 .recipe li {
+  /*border: red 1px solid;*/
   vertical-align: top;
   display: inline-block;
-  width: 200px;
-  margin-right: 100px;
+  width: 300px;
+  margin-right: 80px;
+  font-size: 22px;
+  font-family: 'Patrick Hand';
 }
 footer {
   width: 900px;
 }
+.author {
+  margin-top: 30px;
+}
 .author img {
   float: left;
+  margin-right: 10px;
+}
+.author-text {
+  /*border: blue 1px solid;*/
+  display: inline-block;
+}
+#author-note h1 {
+  font-size: 18px;
 }
 footer button {
+  background-color: #bc7058;
+  color: white;
+  margin: 15px 0px 0px 0px;
+  font-family: 'Oswald';
+  padding: 10px 30px;
   float: right;
 }
 .rights {
+  margin-top: 30px;
   clear: left;
   display: block;
   text-align: center;
