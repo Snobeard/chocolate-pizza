@@ -64,3 +64,17 @@ article {
   width: 200px;
   margin-right: 100px;
 }
+footer {
+  width: 900px;
+}
+.author img {
+  float: left;
+}
+footer button {
+  float: right;
+}
+.rights {
+  clear: left;
+  display: block;
+  text-align: center;
+}
