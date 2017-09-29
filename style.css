@@ -4,24 +4,40 @@
   /*border: 1px red solid;*/
   font-size: 12px;
 }
+section {
+  margin: 0 auto;
+  width: 900px;
+}
 header {
   border-width: 5px;
   border-bottom-style: groove;
   width: 900px;
-  height: 100px;
+  height: 80px;
+  background-color: #999
 }
 .logo {
-  border: 1px red solid;
+  /*border: 1px red solid;*/
   float: left;
+  width: 250px;
+  margin: 20px 0;
 }
 .logo img {
   float: left;
+  margin-right: 5px;
 }
 .logo h1 {
+  font-size: 32px;
   font-family: 'Yellowtail';
+  margin-top: -5px;
+}
+.logo p {
+  margin: -8px 0 0 20px;
+  font-size: 10px;
 }
 nav {
+  border: 1px red solid;
   float: right;
+  margin-top: 27.5px;
 }
 nav span {
   margin-left: 10px;
