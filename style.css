@@ -1,5 +1,52 @@
 * {
   margin: 0px;
   padding: 0px;
+  /*border: 1px red solid;*/
+  font-size: 12px;
+}
+header {
+  border-width: 5px;
+  border-bottom-style: groove;
+  width: 960px;
+  height: 100px;
+}
+.logo {
   border: 1px red solid;
+  float: left;
+}
+.logo img {
+  float: left;
+}
+.logo h1 {
+  font-family: 'Yellowtail';
+}
+nav {
+  float: right;
+}
+nav span {
+  margin-left: 10px;
+}
+nav li {
+  display: inline-block;
+}
+article {
+  width: 960px;
+}
+.title {
+  width: 960px;
+}
+.title h2 {
+  font-family: 'Oswald', sans-serif;
+}
+.title .text {
+  float: left;
+}
+.print {
+  float: right;
+}
+.pizza {
+  width: 960px;
+}
+.main p {
+  width: 960px;
 }
