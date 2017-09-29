@@ -7,7 +7,7 @@
 header {
   border-width: 5px;
   border-bottom-style: groove;
-  width: 960px;
+  width: 900px;
   height: 100px;
 }
 .logo {
@@ -30,10 +30,10 @@ nav li {
   display: inline-block;
 }
 article {
-  width: 960px;
+  width: 900px;
 }
 .title {
-  width: 960px;
+  width: 900px;
 }
 .title h2 {
   font-family: 'Oswald', sans-serif;
@@ -45,8 +45,22 @@ article {
   float: right;
 }
 .pizza {
-  width: 960px;
+  width: 900px;
 }
 .main p {
-  width: 960px;
+  width: 900px;
+}
+.recipe {
+  background-image: url("img/list-bg.png");
+  width: 900px;
+  box-shadow: 0 4px #888;
+}
+.recipe ul {
+  margin-left: 50px;
+}
+.recipe li {
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  margin-right: 100px;
 }
