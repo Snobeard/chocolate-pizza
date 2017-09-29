@@ -1,5 +1,158 @@
 * {
   margin: 0px;
   padding: 0px;
-  border: 1px red solid;
+  /*border: 1px red solid;*/
+  font-size: 12px;
+}
+#page {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* header */
+header {
+  border-width: 5px;
+  border-bottom-style: groove;
+  width: 900px;
+  height: 80px;
+  /*background-color: #999*/
+}
+.logo {
+  /*border: 1px red solid;*/
+  float: left;
+  width: 250px;
+  margin: 20px 0;
+}
+.logo img {
+  float: left;
+  margin-right: 5px;
+}
+.logo h1 {
+  font-size: 32px;
+  font-family: 'Yellowtail';
+  margin-top: -5px;
+}
+.logo p {
+  margin: -8px 0 0 20px;
+  font-size: 10px;
+}
+nav {
+  /*border: 1px red solid;*/
+  float: right;
+  margin-top: 27.5px;
+}
+nav span {
+  margin-left: 10px;
+}
+nav li {
+  display: inline-block;
+}
+
+
+/* article */
+article {
+  width: 900px;
+}
+.title {
+  /*border: red 1px solid;*/
+  margin-top: 50px;
+  /*width: 900px;*/
+  /*height: 80px;*/
+}
+.title h2 {
+  /*border: red 1px solid;*/
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+}
+.title .text {
+  /*border: red 1px solid;*/
+}
+.print-box p {
+  float: left;
+  width: 300px;
+  font-size: 10px;
+  color: #888;
+  font-family: sans-serif;
+}
+#print {
+  float: right;
+  width: 55px;
+}
+#print img {
+  float: left;
+}
+#print h6 {
+  text-align: right;
+  color: #888;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.text .print-box {
+  /*border: red 1px solid;*/
+}
+.pizza {
+  margin: 20px 0;
+  width: 900px;
+}
+
+
+/* main text */
+#main-text {
+  text-indent: 20px;
+}
+#main-text p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+
+/* recipe info */
+.recipe {
+  background-image: url("img/list-bg.png");
+  width: 900px;
+  box-shadow: 0 4px #888;
+  padding: 30px 0;
+}
+.recipe ul {
+  margin-left: 100px;
+}
+.recipe li {
+  /*border: red 1px solid;*/
+  vertical-align: top;
+  display: inline-block;
+  width: 300px;
+  margin-right: 80px;
+  font-size: 22px;
+  font-family: 'Patrick Hand';
+}
+footer {
+  width: 900px;
+}
+.author {
+  margin-top: 30px;
+}
+.author img {
+  float: left;
+  margin-right: 10px;
+}
+.author-text {
+  /*border: blue 1px solid;*/
+  display: inline-block;
+}
+#author-note h1 {
+  font-size: 18px;
+}
+footer button {
+  background-color: #bc7058;
+  color: white;
+  margin: 15px 0px 0px 0px;
+  font-family: 'Oswald';
+  padding: 10px 30px;
+  float: right;
+}
+.rights {
+  margin-top: 30px;
+  clear: left;
+  display: block;
+  text-align: center;
 }
